@@ -1,0 +1,229 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  #myHeader{
+    display: none;
+  }
+    header{
+        position: absolute;
+        z-index: 99;
+        width: 100%;
+    }
+  .header,
+  .social {
+    width:100%;
+    height:10%;
+    padding: 10px 16px;
+    background: transparent;
+    color: #f1f1f1;
+    text-align:right;
+    color:#000000;
+    z-index:999;
+    
+  }
+  .social{
+    top:40%;
+  }
+  .fa{
+    display:flex !important;
+    color:white;
+  }
+.divider{
+  display: inline-block;
+    width: 0;
+    height: 14rem;
+    margin-top: 4rem;
+    /* border-left: 1px solid #ccc; */
+    border-right: 1px solid #ccc;
+}
+.social ul li{
+  width: 30px;
+    background-color: #025cd2;
+    border-radius: 50%;
+    padding: 9px;
+    height:30px;
+}
+.social{
+  display: none;
+}
+.social ul{
+  padding-left:0;
+}
+li{
+  list-style-type: none;
+  margin-bottom:10px;
+}
+  .header a{
+      color: #000000;
+      padding:0 20px;
+  }
+  .header a:hover {
+      text-decoration: none;
+  }
+
+  .carousel-caption {
+      position: absolute;
+  left:0;
+  right:0;
+  height:100%;
+  width:100%;
+  background: #00479ee0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    z-index:99;
+
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.logo{
+  display:inline-block;
+  vertical-align: middle;
+  width:16%;
+}
+.helper {
+  display: inline-block;
+  height: 80%;
+  vertical-align: middle;
+}
+
+.carousel-indicators li{
+  background-image: linear-gradient(to bottom right, #f82611, #f3c47d) !important;
+}
+
+#connection{
+  background-image: url("../images/alive-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.conn{
+  position: absolute;
+  top: 31%;
+  left: 59%;
+  right: 8%;
+color:#ffffff;
+font-family: sans-serif;
+}
+.alive-3{
+  width: 85%;
+  margin-top: 5%;
+  margin-left: 11%;
+  opacity: 0.7;
+}
+.alive-1{
+  position: absolute;
+  right: 37%;
+  width: 9%;
+  top: 10%;
+}
+footer{
+  background-color:#00479ee0 ;
+}
+.footer{
+  display: flex;
+  padding:84px;
+  color:#c7c7c7;
+  font-weight: 100;
+}
+footer p{
+  font-weight: 100;
+}
+.footer-logo{
+  width:48%;
+}
+.footer-pad{
+  padding-top: 80px;
+
+}
+.footer-pad h3{
+  font-size:20px;
+  padding-left: 38px;
+  font-weight:100;
+  color: #dedede;
+
+}
+.footer-social{
+  padding-left: 0;
+}
+.footer div{
+  width:50%;
+}
+.footer-social li{
+  background-color: #ffffff;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  height: 34px;
+  width: 33px;
+}
+.footer-social li i{
+  color: #025cd2;
+}
+.first-footer p {
+  margin-top:22px;
+  padding-right: 24px;
+
+}
+.blue-btn{
+  color: #fff;
+  background-color: #0d59b5e8;
+  border-color: #3974c1;
+}
+.copyright{
+  padding-left: 81px;
+  color:#c7c7c7;
+  padding-bottom:84px;
+}
+  @media screen and (max-width:990px){
+    .header {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        right: -45px;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+      }
+      
+      /* The navigation menu links */
+      .header a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .header a:hover {
+        color: #f1f1f1;
+      }
+      
+      /* Position and style the close button (top right corner) */
+      .header .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+  }
+
+ 
